@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: covid_features
+    description: "Table describing and detailing various features related to COVID-19 data"
+    columns:
+      - name: case_id
+        description: "The unique identifier for each COVID-19 case"
+      
+      - name: rank
+        description: "The ranking of the case relative to others in terms of severity or other metrics"
+
+      - name: symptoms
+        description: "The symptoms of patient"
+        tests:
+          - not_null

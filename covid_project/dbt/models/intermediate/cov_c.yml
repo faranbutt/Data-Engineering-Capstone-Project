@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: covid_data
+    description: "Table describing COVID-19 cases in the San Francisco, California area of the United States"
+    columns:
+      - name: case_id
+        description: "The unique identifier for each COVID-19 case"
+      
+      - name: date_reported
+        description: "The date when the case was reported"
+        tests:
+          - not_null
+
+      - name: location
+        description: "The location where the case was reported"
+      
+      - name: age
+        description: "The age of the patient"
+      
+      - name: gender
+        description: "The gender of the patient"
+      
+      - name: symptoms
+        description: "List of symptoms experienced by the patient"
+      
+      - name: status
+        description: "The current status of the case (e.g., active, recovered, deceased)"

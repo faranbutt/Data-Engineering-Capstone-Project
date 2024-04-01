@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: cov_t
+    description: "Table describing and detailing time-related information for COVID-19 data"
+    columns:
+      - name: updated
+        description: "The timestamp indicating when the data was last updated for the COVID-19 record"
+          
+      - name: date_reported
+        description: "The date when the COVID-19 case was reported"
