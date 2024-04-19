@@ -26,6 +26,8 @@ The COVID-19 pandemic has generated massive amounts of data related to infection
 - **PySpark**: Python API for Apache Spark used for large-scale batch processing of data.
 - **Confluent Kafka**: Distributed streaming platform used for real-time data processing and event streaming.
 - **Docker Compose**: Tool for defining and running multi-container Docker applications. Used to run Mage.ai and Confluent Kafka services.
+- **Looker**: Business intelligence and data visualization platform used to create dashboards and reports.
+
 
 ## Project Structure
 
@@ -76,6 +78,7 @@ covid19/
 
 6. **Docker Compose Setup**: Use the provided `docker-compose.yml` file to run Mage.ai and Confluent Kafka services. Make sure Docker is installed on your system.
 
+7. **Looker Dashboards**: Use Looker to import and customize dashboards located in the `looker_dashboards/` directory.
 
 ## Dashboard
  - Currently in Progress......
@@ -84,6 +87,7 @@ covid19/
 
 - Modify and extend the provided scripts and configurations to suit your specific data processing requirements.
 - Run Docker Compose to start Mage.ai and Confluent Kafka services.
+- Use Looker to visualize and explore data through the imported dashboards.
 - Refer to individual tool documentation for detailed usage instructions and best practices.
 
 ## Contributing
