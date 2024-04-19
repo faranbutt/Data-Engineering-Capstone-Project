@@ -30,7 +30,7 @@ The COVID-19 pandemic has generated massive amounts of data related to infection
 ## Project Structure
 
 The project is structured as follows:
-
+```
 covid19/
 │
 ├── analyitcs/
@@ -60,7 +60,7 @@ covid19/
 │ │── consumer.py
 │ │── producer.py
 └── README.md
-
+```
 
 ## Setup Instructions
 
