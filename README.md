@@ -78,7 +78,7 @@ covid19/
 
 6. **Docker Compose Setup**: Use the provided `docker-compose.yml` file to run Mage.ai and Confluent Kafka services. Make sure Docker is installed on your system.
 
-7. **Looker Dashboards**: Use Looker to import and customize dashboards located in the `looker_dashboards/` directory.
+7. **Looker Dashboards**: Use Looker to import and customize dashboard.
 
 ## Dashboard
  - Currently in Progress......
